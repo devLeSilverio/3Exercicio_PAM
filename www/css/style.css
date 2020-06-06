@@ -1,0 +1,19 @@
+/**/
+#calculo{
+  margin-left: 4vh;
+}
+#limpar{
+  margin-left: 4vh;
+}
+#situação{
+  margin-left: 5vh;
+}
+
+.title{
+  font: fantasy;
+  background-color:rgb(230, 214, 214);
+}
+
+body{
+  background-color:rgb(236, 236, 236); 
+}

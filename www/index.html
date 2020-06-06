@@ -1,0 +1,56 @@
+  
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script src="components/loader.js"></script>
+  <script src="lib/jquery-3.5.1.min.js"></script>
+    <script src="components/valida.js"></script>
+
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="container-fluid">
+<div class="row title">
+<div class="col-sm-6 offset-sm-3"><center><h1>VALIDA ∆</h1></center></div></div>
+
+
+<div class="row">
+  <div class="col-sm-6 offset-sm-3  mt-4 font-weight-bold text-center">
+   LADO 1 <input type="number" id="lado1" placeholder="Digite o 1º valor:"></div>
+</div>
+<div class="row">
+   <div class="col-sm-6 mt-2  font-weight-bold text-center">
+    LADO 2 <input type="number" id="lado2" placeholder="Digite o 2º valor:"></div>
+</div>
+<div class="row">
+   <div class="col-sm-6 mt-2  font-weight-bold text-center">
+    LADO 3 <input type="number" id="lado3" placeholder="Digite o 3º valor:"></div>
+</div>
+
+
+ <div class="row">
+    <div class="col-4 offset-1 text-warning">
+      <button type="button" class="btn btn-outline-dark  mt-3" id="calculo">VALIDAR</button></div>
+     <div class="col-4 offset-1 text-warning">
+         <button class="bnt btn btn-outline-info   mt-3" id="limpar">LIMPAR</button></div>
+</div>
+<div class="row">
+     <div class="col-sm-4 offset-sm-4 mt-3 font-weight-bold text-center">
+         NOTA: <input type="text" id="aviso" readonly></div>
+</div>
+
+<div class="row">
+    <div class="col-sm-4 offset-sm-4 mt-4 " id="situação"></div>
+</div>
+
+</div>
+
+</body>
+</html>
